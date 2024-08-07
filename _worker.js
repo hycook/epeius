@@ -8,16 +8,27 @@ let proxyIP = '';
 let socks5Address = '';
 
 let addresses = [
-	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
-	'cf.090227.xyz:443#加入我的频道t.me/CMLiussss解锁更多优选节点',
-	'time.is#你可以只放域名 如下',
-	'www.visa.com.sg',
-	'skk.moe#也可以放域名带端口 如下',
-	'www.wto.org:8443',
-	'www.csgo.com:2087#节点名放在井号之后即可',
-	'icook.hk#若不带端口号默认端口为443',
-	'104.17.152.41#IP也可以',
-	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]#IPv6也OK',
+	'deliveroo.co.uk:2053#CF優選@SG',
+	'azmovies.net:2096#CF優選@SG',
+	'ip.sb:443#CF優選@SG',
+	'www.visa.com:2083#CF優選@SG',
+	'russia.com:443#CF優選@SG',
+	'www.visa.com.sg:8443#CF優選@SG',
+	'www.visa.com.tw:2053#CF優選@SG',
+	'www.visakorea.com:2087#CF優選@SG',
+	'www.whoer.net:2087#CF優選@SG',
+	'www.whatismyip.com:2096#CF優選@SG',
+	'www.hugedomains.com:8443#CF優選@SG',
+	'coursera.org#JP@coursera',
+	'aws.amazon.com#JP@amazon',
+	'costco.com#SG@costco',
+	'tidal.com#JP@tidal',
+	'espn.com#JP@tidal',
+	'bethesda.net#JP@bethesda',
+	'ea.com#SG@ea',
+	'pogo.com#SG@pogo',
+	'store.steampowered.com#US@store',
+	'udacity.com#JP@udacity',
 ];
 
 let sub = ''; 
@@ -26,7 +37,13 @@ let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/
 let subProtocol = 'https';
 let RproxyIP = 'false';
 
-let addressesapi = [];
+let addressesapi = [
+	'https://ipdb.api.030101.xyz/?type=bestproxy&country=true', 
+	'https://addressesapi.090227.xyz/CloudFlareYes', 
+	'https://addressesapi.090227.xyz/ip.164746.xyz', 
+	'https://addressesapi.090227.xyz/cmcc', 
+	'https://addressesapi.090227.xyz/cmcc-ipv6',
+];
 let addressescsv = [];
 let DLS = 8;
 
