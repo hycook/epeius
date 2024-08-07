@@ -19,16 +19,6 @@ let addresses = [
 	'www.whoer.net:2087#CF優選@SG',
 	'www.whatismyip.com:2096#CF優選@SG',
 	'www.hugedomains.com:8443#CF優選@SG',
-	'coursera.org#JP@coursera',
-	'aws.amazon.com#JP@amazon',
-	'costco.com#SG@costco',
-	'tidal.com#JP@tidal',
-	'espn.com#JP@tidal',
-	'bethesda.net#JP@bethesda',
-	'ea.com#SG@ea',
-	'pogo.com#SG@pogo',
-	'store.steampowered.com#US@store',
-	'udacity.com#JP@udacity',
 ];
 
 let sub = ''; 
@@ -38,7 +28,7 @@ let subProtocol = 'https';
 let RproxyIP = 'false';
 
 let addressesapi = [
-	'https://ipdb.api.030101.xyz/?type=bestproxy&country=true', 
+	'https://ipdb.api.030101.xyz/?type=bestcf&country=true', 
 	'https://addressesapi.090227.xyz/CloudFlareYes', 
 	'https://addressesapi.090227.xyz/ip.164746.xyz', 
 	'https://addressesapi.090227.xyz/cmcc', 
